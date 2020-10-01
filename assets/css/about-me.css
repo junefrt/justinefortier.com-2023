@@ -1,0 +1,463 @@
+.about-me-content {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "cover" "wrapper";
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 580px auto auto auto;
+      grid-template-rows: 580px auto auto auto;
+}
+
+@media all and (max-width: 680px) {
+  .about-me-content {
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .about-me-content {
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+  }
+}
+
+#cover {
+  z-index: 0;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: cover;
+  background-color: var(--secondary);
+  margin-top: 50px;
+  padding: 90px 80px 100px 80px;
+}
+
+#cover .about-me-title {
+  font-family: "jubbew-semibold";
+  font-size: 11rem;
+  color: var(--light);
+  margin: 20px 0 30px -5px;
+}
+
+@media all and (max-width: 900px) {
+  #cover .about-me-title {
+    font-size: 10rem;
+  }
+}
+
+@media all and (max-width: 800px) {
+  #cover .about-me-title {
+    font-size: 9rem;
+  }
+}
+
+@media all and (max-width: 760px) {
+  #cover .about-me-title {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 680px) {
+  #cover .about-me-title {
+    font-size: 5rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #cover .about-me-title {
+    font-size: 4rem;
+  }
+}
+
+@media all and (orientation: portrait) {
+  #cover .about-me-title {
+    text-align: center;
+  }
+}
+
+#cover .about-me-subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: var(--light);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 760px) {
+  #cover .about-me-subtitle {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+@media all and (max-width: 580px) {
+  #cover .about-me-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #cover .about-me-subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+@media all and (max-width: 320px) {
+  #cover .about-me-subtitle {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (orientation: portrait) {
+  #cover .about-me-subtitle {
+    text-align: center;
+  }
+}
+
+#cover .text-cascade-1 {
+  margin-left: 60px;
+}
+
+@media all and (max-width: 840px) {
+  #cover .text-cascade-1 {
+    margin-left: 0;
+  }
+}
+
+#cover .text-cascade-2 {
+  margin-left: 90px;
+}
+
+@media all and (max-width: 840px) {
+  #cover .text-cascade-2 {
+    margin-left: 30px;
+  }
+}
+
+@media all and (max-width: 580px) {
+  #cover .text-cascade-2 {
+    margin-left: 0;
+  }
+}
+
+@media all and (orientation: portrait) {
+  #cover .about-me-subtitle {
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: 414px) {
+  #cover {
+    padding: 60px 50px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  #cover {
+    padding: 60px 30px;
+  }
+}
+
+.illu-justine {
+  z-index: 2;
+  position: absolute;
+  top: 100px;
+  right: 130px;
+  width: 470px;
+}
+
+@media all and (max-width: 1350px) {
+  .illu-justine {
+    width: 400px;
+    top: 170px;
+  }
+}
+
+@media all and (max-width: 1250px) {
+  .illu-justine {
+    display: none;
+  }
+}
+
+.wrapper {
+  z-index: 1;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "description" "cv";
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+}
+
+.wrapper p {
+  text-align: center;
+}
+
+.wrapper .description {
+  position: relative;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: description;
+  background-color: var(--light);
+  padding: 8rem 80px 4rem 80px;
+  text-align: center;
+}
+
+.wrapper .description p {
+  color: var(--light-blue);
+  text-align: left;
+}
+
+.wrapper .description .buttons {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.wrapper .description .buttons button {
+  margin: 10px;
+}
+
+.wrapper .description button {
+  background: var(--primary);
+  border: none;
+  color: var(--light);
+}
+
+.wrapper .description button:hover {
+  background: var(--secondary);
+  cursor: pointer;
+}
+
+.wrapper .description .who-i-am {
+  width: 60%;
+  margin: 80px auto 150px auto;
+}
+
+.wrapper .description .who-i-am p {
+  text-align: justify;
+}
+
+@media all and (max-width: 414px) {
+  .wrapper .description .who-i-am p {
+    text-align: left;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .wrapper .description .who-i-am {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .wrapper .description .who-i-am {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .wrapper .description .who-i-am {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .wrapper .description .who-i-am {
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+}
+
+.wrapper .description .skills-box {
+  width: 60%;
+  margin: 80px auto 150px auto;
+}
+
+.wrapper .description .skills-box .skill {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 414px) {
+  .wrapper .description .skills-box .skill {
+    margin-top: 15px;
+  }
+}
+
+.wrapper .description .skills-box .progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 50px;
+  background-color: rgba(0, 36, 69, 0.4);
+  line-height: 22px;
+}
+
+.wrapper .description .skills-box .progress .percent {
+  height: 20px;
+  border-radius: 50px;
+  text-align: right;
+  color: var(--light);
+  padding-right: 10px;
+  -webkit-animation: animate .5s linear infinite;
+          animation: animate .5s linear infinite;
+  background: linear-gradient(120deg, var(--light-blue) 33%, var(--primary) 33%, var(--primary) 66%, var(--light-blue) 66%, var(--light-blue) 99%);
+  background-size: 60px 60px;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .wrapper .description .skills-box {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .wrapper .description .skills-box {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .wrapper .description .skills-box {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .wrapper .description .skills-box {
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+}
+
+.wrapper .description .exhibitions {
+  width: 60%;
+  margin: 80px auto 240px auto;
+  text-align: justify;
+}
+
+@media all and (max-width: 1000px) {
+  .wrapper .description .exhibitions {
+    width: 70%;
+    margin-bottom: 300px;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .wrapper .description .exhibitions {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .wrapper .description .exhibitions {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .wrapper .description .exhibitions {
+    margin-bottom: 250px;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .wrapper .description .exhibitions {
+    margin-top: 0;
+    margin-bottom: 170px;
+  }
+}
+
+.wrapper .description .illu-shaka {
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 465px;
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (max-width: 1250px) {
+  .wrapper .description .illu-shaka {
+    width: 400px;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .wrapper .description .illu-shaka {
+    width: 350px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .wrapper .description .illu-shaka {
+    width: 330px;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .wrapper .description .illu-shaka {
+    width: 270px;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .wrapper .description {
+    padding: 5rem 50px;
+  }
+}
+
+.wrapper .cv {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: cv;
+  background-color: var(--secondary);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.wrapper .cv h2 {
+  color: var(--light);
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+
+.wrapper .cv p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.wrapper .cv button {
+  border: 1px solid var(--light);
+}
+
+.wrapper .cv button:hover {
+  background-color: var(--light);
+  color: var(--secondary);
+}
+/*# sourceMappingURL=about-me.css.map */
