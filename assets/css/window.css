@@ -1,5 +1,5 @@
 .window-content {
-  background-color: var(--light);
+  background-color: var(--secondblack);
   position: relative;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -17,7 +17,7 @@
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: filters;
-  margin: 90px calc(80px - 5px) 0 calc(80px - 5px);
+  margin: 140px calc(80px - 5px) 0 calc(80px - 5px);
 }
 
 .filters #filters {
@@ -34,18 +34,14 @@
   margin: 3px 5px;
   padding: 6px 8px;
   text-decoration: none;
-  color: var(--primary);
+  color: var(--white);
   cursor: pointer;
   line-height: 2.3rem;
 }
 
-.filters #filters li span:hover {
-  color: var(--secondary);
-}
-
 .filters #filters li span.active {
   background: var(--secondary);
-  color: var(--light);
+  color: var(--black);
 }
 
 @media all and (max-width: 414px) {
@@ -87,7 +83,7 @@
 #windows .portfolio .portfolio-wrapper {
   overflow: hidden;
   position: relative !important;
-  background: var(--primary);
+  background: var(--secondary);
   cursor: pointer;
 }
 
@@ -110,7 +106,7 @@
 }
 
 #windows .portfolio .portfolio-wrapper .label .label-bg {
-  background: var(--primary);
+  background: var(--secondary);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -119,15 +115,22 @@
 }
 
 #windows .portfolio .portfolio-wrapper .label .label-text {
-  color: var(--light);
+  color: var(--black);
+  font-weight: 600;
   position: relative;
-  z-index: 500;
-  padding: 5px 8px;
+  z-index: 2;
+  padding: 7px 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
 }
 
 #windows .portfolio .portfolio-wrapper .label .category {
   display: block;
-  font-size: 0.7em;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 @media all and (max-width: 1090px) {

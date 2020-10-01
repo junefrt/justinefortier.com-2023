@@ -1241,14 +1241,14 @@ html {
       z-index: 3;
       position: fixed;
       top: 0;
-      height: 50px;
+      height: 100px;
       width: 100%;
-      // background-color: var(--primary);
+      background-color: var(--black);
 
       .logo {
         grid-area: logo;
-        height: 26px;
-        padding: 12px 0 11px 80px;
+        height: 32px;
+        padding: 34px 0 34px 80px;
       }
 
       @media all and (max-width: 580px) {
@@ -1284,6 +1284,7 @@ html {
       margin: 0;
       font-size: 2rem;
       text-transform: uppercase;
+      letter-spacing: 10px;
     }
 
     @media all and (max-width: 414px) {
@@ -1369,10 +1370,6 @@ html {
       .title-number {
         font-size: 1.5rem;
       }
-    }
-
-    .home-titles {
-      letter-spacing: 10px;
     }
 
     p {
