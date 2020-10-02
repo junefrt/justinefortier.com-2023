@@ -35,7 +35,7 @@
   background-color: var(--primary);
   height: 100%;
   margin-top: 100px;
-  padding: 90px 5em 160px 5em;
+  padding: 90px 5em 200px 5em;
 
   .works-title {
     font-family: "Montserrat";
@@ -232,6 +232,9 @@
     "links";
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--black);
   // position: relative;
 
   p {
@@ -239,9 +242,12 @@
   }
 
   .meta {
+    z-index: 2;
     grid-area: meta;
     background-color: var(--secondary);
-    padding: 20px 5em;
+    padding: 1.6em 8%;
+    margin: -4em 12%;
+    // position: absolute;
 
     p {
       color: var(--black);
@@ -271,7 +277,7 @@
   .description {
     grid-area: description;
     background-color: var(--secondblack);
-    padding: 100px 5em 20px 5em;
+    padding: 10em 20% 20px 20%;
     // text-align: center;
 
     .text {
@@ -299,9 +305,10 @@
       }
 
       .media {
-        width: 60%;
+        width: 100%;
         padding-top: 50px;
         margin: auto;
+        text-align: center;
 
         img {
           width: 100%;
@@ -458,7 +465,7 @@
 
     .images {
       margin: 0 auto 90px auto;
-      width: 60%;
+      width: 100%;
 
       .artwork {
         margin-bottom: 60px;

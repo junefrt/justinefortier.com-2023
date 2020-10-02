@@ -1589,7 +1589,7 @@ html body button:hover {
   -ms-grid-column: 1;
   grid-area: works;
   position: relative;
-  background-color: var(--primary);
+  background-color: var(--secondblack);
   width: 100%;
 }
 
@@ -1608,7 +1608,7 @@ html body button:hover {
 }
 
 .works .row .works-col-left h2 {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .works .row .works-col-left .works-list {
@@ -1625,7 +1625,6 @@ html body button:hover {
 .works .row .works-col-left p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
-  color: var(--secondary);
   line-height: 2.4rem;
   margin: 0 0 0 -0.4em;
 }
@@ -1645,8 +1644,8 @@ html body button:hover {
   padding: 6px 8px;
   background-size: 200% auto;
   background-position: 0 0;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0)), color-stop(50%, var(--secondary)));
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, var(--secondary) 50%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0)), color-stop(50%, var(--primary)));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, var(--primary) 50%);
   -webkit-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
 }
@@ -1666,7 +1665,7 @@ html body button:hover {
 .works .row .works-col-left .highlighter:hover {
   background-position: -100% 0;
   padding: 6px 8px;
-  color: var(--primary);
+  color: var(--white);
 }
 
 .works .row .works-col-left .highlighter:hover span {
@@ -1853,8 +1852,8 @@ html body button:hover {
 }
 
 .works .row .works-col-left button:hover {
-  background-color: var(--secondary);
-  color: var(--primary);
+  background-color: var(--primary);
+  color: var(--secondblack);
 }
 
 .works .row .works-col-left .see-the-window {
@@ -1952,6 +1951,7 @@ html body button:hover {
   -ms-grid-column: 1;
   grid-area: colleft;
   position: relative;
+  background-color: var(--secondary);
 }
 
 .about-me .aboutme-col-left img {
@@ -2019,7 +2019,7 @@ html body button:hover {
 
 .about-me .aboutme-col-right .aboutme-sentence button:hover {
   background-color: var(--secondary);
-  color: var(--black);
+  color: var(--secondblack);
 }
 
 @media all and (max-width: 414px) {
@@ -2101,7 +2101,7 @@ html body button:hover {
 }
 
 .contact h2 {
-  color: var(--secondary);
+  color: var(--primary);
   text-align: center;
   margin-bottom: 40px;
 }
@@ -2122,7 +2122,7 @@ html body button:hover {
 }
 
 .contact button:hover {
-  background-color: var(--secondary);
+  background-color: var(--primary);
   color: var(--black);
 }
 
