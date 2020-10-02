@@ -29,34 +29,24 @@
 <body>
     <div class="content-works">
         <header>
-            <a href="../index.html"><img class="logo" src="../assets/img/logos/logo-justine-fortier-light.png"
+            <a href="../index.html"><img class="logo" src="../assets/img/logos/logo-ju-light.png"
                     alt="Logo Justine Fortier"></a>
         </header>
 
         <div id="cover">
-            <div class="cover-col-left">
-                <h1 class="works-title">code{strata} v2</h1>
-                <span class="works-category">Application web</span>
-                <p class="collaboration">En collaboration avec Nicolas Harrand (KTH) et Oscar Luis Vera Pérez (INRIA),
-                    sous la supervision de Benoit Baudry (KTH) et Bruno Bossis (Université Rennes 2)</p>
-
-                <div class="works-informations">
-                    <h2 class="info-title">Date</h2>
-                    <p>2019</p>
-
-                    <!-- <h2 class="info-title">Rôle</h2>
-                    <p>Direction artistique et développeuse</p> -->
-                </div>
-            </div>
-            <div class="cover-col-right" style="background-image: url(../assets/img/cover/code-strata.jpg);"></div>
+            <h1 class="works-title">code{strata} v2</h1>
+            <p class="collaboration">En collaboration avec Nicolas Harrand (KTH) et Oscar Luis Vera Pérez (INRIA),
+                <br>sous la supervision de Benoit Baudry (KTH) et de Bruno Bossis (Université Rennes 2).</p>
+            <span class="works-informations">Application web<br>2019</span>
         </div>
 
         <div class="wrapper">
             <div class="meta">
-                <p>code{strata} est un projet qui résulte d’une collaboration entre des chercheurs en informatique de
+                <p><em>code{strata}</em> est un projet qui résulte d’une collaboration entre des chercheurs en
+                    informatique de
                     l’INRIA et du KTH et des chercheurs en Art de l’Université Rennes 2. Il tend à révéler, à travers
                     différentes interprétations artistiques, la
-                    beauté de la complexité du <em class="italic">software</em>.
+                    beauté de la complexité du <em>software</em>.
                 </p>
             </div>
 
@@ -64,21 +54,21 @@
                 <h3><em class="title-number">01.</em> Concept</h3>
 
                 <div class="text">
-                    <p><em class="italic">code{strata} v2</em> est une interprétation artistique non-exhaustive d'une
+                    <p><em>code{strata} v2</em> est une interprétation artistique non-exhaustive d'une
                         recherche scientifique informatique. Celle-ci prend la forme d'une application web qui propose
                         d'explorer les
-                        premiers niveaux d’interprétation du <em class="italic">software</em>. L’expérience nous permet
+                        premiers niveaux d’interprétation du <em>software</em>. L’expérience nous permet
                         ainsi d’observer le
                         nombre impressionnant de fonctions appelées pour la simple exécution d’un ctrl-c ctrl-v dans un
-                        éditeur de texte <em class="italic">open source</em> rédigé en Java.
+                        éditeur de texte <em>open source</em> rédigé en Java.
                     </p>
                     <p>Cette œuvre tend également à redonner place à l'humain en rappelant que chaque fonction a été
                         codée un jour par un développeur et ce en remplaçant le nom des fonctions par le pseudonyme
                         GitHub de ces développeurs.
                     </p>
                     <p>
-                        L’exploration se déroule en deux phases qui illustrent ce qu'il se passe <em
-                            class="italic">dans</em> l'ordinateur lorsque l'on fait un copier-coller :
+                        L’exploration se déroule en deux phases qui illustrent ce qu'il se passe <em>dans</em>
+                        l'ordinateur lorsque l'on fait un copier-coller :
                         <ol>
                             <li>Une première phase
                                 d’exploration des niveaux supérieurs vers
@@ -118,18 +108,17 @@
 
                 <div class="text">
                     <p>Le projet code{strata} repose sur des données extraites à partir de l’exécution du ctrl-c ctrl-v,
-                        ce que nous nommons plus précisément des <em class="italic">traces</em>. Ces traces d’exécution
+                        ce que nous nommons plus précisément des <em>traces</em>. Ces traces d’exécution
                         ne sont ni plus ni moins
                         que les fonctions appelées au cours du processus d’exécution. Chaque fonction appelée peut
                         elle-même appeler une ou plusieurs fonctions qui peuvent, à leur tour, appeler d’autres
                         fonctions. Se dessine alors une organisation hiérarchique que nous appelons plus communément un
-                        <em class="italic">arbre</em> ; un arbre étant une structure de données. Ces données sont
-                        classées dans des <em class="italic">nœuds</em>, de telle sorte qu’un nœud particulier,
-                        appelé <em class="italic">racine</em>, sert de point de
-                        départ et que tout nœud autre que la racine fait référence à un autre nœud appelé <em
-                            class="italic">parent</em>. Chaque
-                        nœud peut lui-même faire référence à 0, 1 ou plusieurs nœuds appelés <em
-                            class="italic">enfants</em>. </p>
+                        <em>arbre</em> ; un arbre étant une structure de données. Ces données sont
+                        classées dans des <em>nœuds</em>, de telle sorte qu’un nœud particulier,
+                        appelé <em>racine</em>, sert de point de
+                        départ et que tout nœud autre que la racine fait référence à un autre nœud appelé
+                        <em>parent</em>. Chaque
+                        nœud peut lui-même faire référence à 0, 1 ou plusieurs nœuds appelés <em>enfants</em>. </p>
                     <p>Cette œuvre a été réalisée grâce aux librairies p5.js et toxiclib.js, qui ont été utilisées
                         respectivement pour la partie graphique et l'animation de cette œuvre. <br>
                         Le son est généré grâce à un simple granulateur rédigé en JavaScript.

@@ -45,11 +45,11 @@
             }
 
             span:hover {
-                // color: var(--secondary);
+                // color: var(--primary);
             }
 
             span.active {
-                background: var(--secondary);
+                background: var(--white);
                 color: var(--black);
             }
         }
@@ -112,7 +112,7 @@
                 text-align: left;
 
                 .label-bg {
-                    background: var(--secondary);
+                    background: var(--black);
                     width: 100%;
                     height: 100%;
                     position: absolute;
@@ -121,7 +121,7 @@
                 }
 
                 .label-text {
-                    color: var(--black);
+                    color: var(--white);
                     font-weight: 600;
                     position: relative;
                     z-index: 2;

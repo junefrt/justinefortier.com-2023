@@ -32,14 +32,14 @@
 #cover {
     z-index: 0;
     grid-area: cover;
-    background-color: var(--secondary);
-    margin-top: 50px;
-    padding: 90px 80px 100px 80px;
+    background-color: var(--primary);
+    margin-top: 100px;
+    padding: 90px 5em 160px 5em;
 
     .about-me-title {
-        font-family: "jubbew-semibold";
-        font-size: 11rem;
-        color: var(--light);
+        font-family: "Montserrat";
+        font-size: 5.5rem;
+        color: var(--white);
         margin: 20px 0 30px -5px;
     }
 
@@ -207,7 +207,7 @@
     .description {
         position: relative;
         grid-area: description;
-        background-color: var(--light);
+        background-color: var(--secondblack);
         padding: 8rem 80px 4rem 80px;
         text-align: center;
 
