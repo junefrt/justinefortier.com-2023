@@ -45,11 +45,11 @@
             }
 
             span:hover {
-                // color: var(--primary);
+                color: var(--secondary);
             }
 
             span.active {
-                background: var(--white);
+                background: var(--secondary);
                 color: var(--black);
             }
         }
@@ -112,7 +112,7 @@
                 text-align: left;
 
                 .label-bg {
-                    background: var(--black);
+                    background: var(--primary);
                     width: 100%;
                     height: 100%;
                     position: absolute;
