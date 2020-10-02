@@ -1219,7 +1219,6 @@
   --primary: #5f46da;
   --lightprimary: #684dee;
   --secondary: #1AD697;
-  // --secondary: #1AD697;
   --white: #e4e4e4;
   --black: #1f1f1f;
   --secondblack: #262626;
@@ -1411,7 +1410,6 @@ html {
       border: 2px solid var(--white);
       color: var(--white);
       text-transform: uppercase;
-      // font-weight: 400;
       letter-spacing: 3px;
       margin-top: 10px;
     }
@@ -1424,7 +1422,6 @@ html {
     }
 
     button:hover {
-      // font-weight: 500;
       border: none;
       cursor: pointer;
     }
@@ -1444,7 +1441,7 @@ html {
   grid-template-rows: 100vh auto auto auto auto;
 }
 
-@media all and (max-width: 690px) {
+@media all and (max-width: 752px) {
   .content-home {
     grid-template-rows: auto auto auto auto auto;
   }
@@ -1496,10 +1493,6 @@ html {
 .cover-home {
   padding: 20% 4rem 4rem 16%;
 
-  img {
-    display: none;
-  }
-
   h1 {
     color: var(--secondary);
     margin: 0;
@@ -1514,13 +1507,14 @@ html {
 
     @media all and (max-width: 970px) {
       em {
-        font-size: 11rem;
+        font-size: 9rem;
       }
     }
   }
 
   @media all and (max-width: 970px) {
     h1 {
+      font-size: 3rem;
       line-height: 3.8rem;
     }
   }
@@ -1529,34 +1523,46 @@ html {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: var(--white);
-    font-size: 1.8rem;
-    margin: -4rem 0 0 14%;
+    font-size: 2rem;
+    margin: -4rem 0 0 20%;
   }
 
   @media all and (max-width: 970px) {
     span {
-      font-size: 1.4rem;
+      font-size: 2rem;
+      margin-left: 16%;
     }
   }
 }
 
-@media all and (max-width: 690px) {
+@media all and (max-width: 752px) {
   .cover-home {
     padding: 20% 0;
 
     h1 {
-      display: none;
+      padding: 0 12%;
+      font-size: 2rem;
+      line-height: 3rem;
+
+      em {
+        font-size: 6rem;
+        margin-left: -0.5rem;
+      }
     }
 
     .subtitle {
-      display: none;
-    }
+      margin: 0 0 0 12%;
 
-    img {
-      display: block;
-      width: 50%;
-      margin: auto;
+      span {
+        font-size: 1.4rem;
+      }
     }
+  }
+}
+
+@media all and (max-width: 692px) {
+  .subtitle {
+    margin-top: -4.4em;
   }
 }
 
@@ -1565,29 +1571,18 @@ html {
     padding: 20% 0;
 
     h1 {
-      display: none;
+      padding: 0 12%;
+      font-size: 2rem;
+      line-height: 3rem;
+
+      em {
+        font-size: 6rem;
+        margin-left: -0.5rem;
+      }
     }
 
     .subtitle {
-      display: none;
-    }
-
-    img {
-      display: block;
-      width: 50%;
-      margin: auto;
-    }
-
-    @media all and (min-width: 768px) {
-      img {
-        width: 45%;
-      }
-    }
-
-    @media all and (min-width: 1024px) {
-      img {
-        width: 35%;
-      }
+      margin-left: 18%;
     }
   }
 }
@@ -1631,7 +1626,6 @@ html {
     height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    // grid-template-rows: 600px;
 
     .works-col-left {
       position: relative;
@@ -1655,8 +1649,6 @@ html {
       p {
         font-family: "Montserrat", sans-serif;
         font-size: 1.1rem;
-        // font-weight: 200;
-        // color: var(--secondary);
         line-height: 2.4rem;
         margin: 0 0 0 -0.4em;
       }
@@ -1671,7 +1663,6 @@ html {
       .highlighter {
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
-        // text-transform: uppercase;
         color: var(--white);
         text-decoration: none;
         padding: 6px 8px;
@@ -1724,26 +1715,12 @@ html {
         opacity: 1;
       }
 
-      // .works-dailyui:hover:before {
-      //   z-index: 2;
-      //   background-image: url(../img/cover/daily-ui-challenge.jpg);
-      //   background-repeat: no-repeat;
-      //   background-position: center center;
-      //   background-size: cover;
-      //   // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
-      //   -webkit-transition: opacity 0.2s ease-in-out;
-      //   -moz-transition: opacity 0.2s ease-in-out;
-      //   -o-transition: opacity 0.2s ease-in-out;
-      //   -ms-transition: opacity 0.2s ease-in-out;
-      // }
-
       .works-btc:hover:before {
         z-index: 2;
         background-image: url(../img/cover/be-the-change.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
         -webkit-transition: opacity 0.2s ease-in-out;
         -moz-transition: opacity 0.2s ease-in-out;
         -o-transition: opacity 0.2s ease-in-out;
@@ -1756,25 +1733,11 @@ html {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
         -webkit-transition: opacity 0.2s ease-in-out;
         -moz-transition: opacity 0.2s ease-in-out;
         -o-transition: opacity 0.2s ease-in-out;
         -ms-transition: opacity 0.2s ease-in-out;
       }
-
-      // .works-jubbew:hover:before {
-      //   z-index: 2;
-      //   background-image: url(../img/prev/home/jubbew.png);
-      //   background-repeat: no-repeat;
-      //   background-position: center center;
-      //   background-size: cover;
-      //   // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
-      //   -webkit-transition: opacity 0.2s ease-in-out;
-      //   -moz-transition: opacity 0.2s ease-in-out;
-      //   -o-transition: opacity 0.2s ease-in-out;
-      //   -ms-transition: opacity 0.2s ease-in-out;
-      // }
 
       .works-codestrata:hover:before {
         z-index: 2;
@@ -1782,7 +1745,6 @@ html {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
         -webkit-transition: opacity 0.2s ease-in-out;
         -moz-transition: opacity 0.2s ease-in-out;
         -o-transition: opacity 0.2s ease-in-out;
@@ -1795,7 +1757,6 @@ html {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
         -webkit-transition: opacity 0.5s ease-in-out;
         -moz-transition: opacity 0.5s ease-in-out;
         -o-transition: opacity 0.5s ease-in-out;
@@ -1808,7 +1769,6 @@ html {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
         -webkit-transition: opacity 0.5s ease-in-out;
         -moz-transition: opacity 0.5s ease-in-out;
         -o-transition: opacity 0.5s ease-in-out;
@@ -1821,7 +1781,6 @@ html {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
         -webkit-transition: opacity 0.5s ease-in-out;
         -moz-transition: opacity 0.5s ease-in-out;
         -o-transition: opacity 0.5s ease-in-out;
@@ -1971,6 +1930,7 @@ html {
       .works-col-left {
         text-align: center;
         padding: 90px 0;
+        background-color: var(--black);
 
         p {
           text-align: center;
@@ -1988,7 +1948,6 @@ html {
     .works-col-right {
       z-index: 1;
       background-color: var(--lightprimary);
-      // clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
     }
   }
 
