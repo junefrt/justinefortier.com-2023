@@ -1238,8 +1238,8 @@ html body header .logo {
 }
 
 @media all and (max-width: 580px) {
-  html body header {
-    text-align: center;
+  html body header .logo {
+    padding: 34px 5em;
   }
 }
 
@@ -1270,30 +1270,24 @@ html body h2 {
   html body h2 {
     margin-bottom: -20px;
   }
-  html body h3 {
-    font-family: "Montserrat";
-    font-size: 5rem;
-    color: var(--primary);
-    margin: 0 0 50px 0;
-    text-align: left;
-  }
+}
+
+html body h3 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  color: var(--white);
+  margin: 0 0 20px 0;
+  text-align: left;
 }
 
 @media all and (max-width: 680px) {
   html body h3 {
-    font-size: 4rem;
-  }
-}
-
-@media all and (max-width: 580px) {
-  html body h3 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
 @media all and (max-width: 414px) {
   html body h3 {
-    font-size: 2.5rem;
     margin-bottom: 30px;
   }
 }
