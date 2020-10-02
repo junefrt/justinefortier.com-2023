@@ -12,7 +12,7 @@
         "cover"
         "wrapper";
     grid-template-columns: 1fr;
-    grid-template-rows: 580px auto auto auto;
+    grid-template-rows: 540px auto auto auto;
 }
 
 @media all and (max-width: 680px) {
@@ -34,13 +34,13 @@
     grid-area: cover;
     background-color: var(--primary);
     margin-top: 100px;
-    padding: 90px 5em 160px 5em;
+    padding: 90px 5em 90px 5em;
 
     .about-me-title {
         font-family: "Montserrat";
         font-size: 5.5rem;
         color: var(--white);
-        margin: 20px 0 30px -5px;
+        margin: 0 0 0.4em 0;
     }
 
     @media all and (max-width: 900px) {
@@ -87,8 +87,7 @@
         line-height: 2rem;
         letter-spacing: 2px;
         text-transform: uppercase;
-        margin-top: 0;
-        margin-bottom: 5px;
+        margin: 0;
     }
 
     @media all and (max-width: 760px) {
@@ -123,32 +122,6 @@
         }
     }
 
-    .text-cascade-1 {
-        margin-left: 60px;
-    }
-
-    @media all and (max-width: 840px) {
-        .text-cascade-1 {
-            margin-left: 0;
-        }
-    }
-
-    .text-cascade-2 {
-        margin-left: 90px;
-    }
-
-    @media all and (max-width: 840px) {
-        .text-cascade-2 {
-            margin-left: 30px;
-        }
-    }
-
-    @media all and (max-width: 580px) {
-        .text-cascade-2 {
-            margin-left: 0;
-        }
-    }
-
     @media all and (orientation: portrait) {
         .about-me-subtitle {
             margin-left: 0;
@@ -171,9 +144,9 @@
 .illu-justine {
     z-index: 2;
     position: absolute;
-    top: 100px;
-    right: 130px;
-    width: 470px;
+    top: 150px;
+    right: 160px;
+    width: 380px;
 }
 
 @media all and (max-width: 1350px) {
@@ -208,8 +181,7 @@
         position: relative;
         grid-area: description;
         background-color: var(--secondblack);
-        padding: 8rem 80px 4rem 80px;
-        text-align: center;
+        padding: 10em 20% 20px 20%;
 
         p {
             color: var(--light-blue);
@@ -237,8 +209,6 @@
         }
 
         .who-i-am {
-            width: 60%;
-            margin: 80px auto 150px auto;
 
             p {
                 text-align: justify;
@@ -277,7 +247,6 @@
         }
 
         .skills-box {
-            width: 60%;
             margin: 80px auto 150px auto;
 
             .skill {
@@ -295,17 +264,17 @@
                 width: 100%;
                 height: 20px;
                 border-radius: 50px;
-                background-color: rgba(0, 36, 69, 0.4);
+                background-color: var(--black);
                 line-height: 22px;
 
                 .percent {
                     height: 20px;
                     border-radius: 50px;
                     text-align: right;
-                    color: var(--light);
+                    color: var(--white);
                     padding-right: 10px;
                     animation: animate .5s linear infinite;
-                    background: linear-gradient(120deg, var(--light-blue) 33%, var(--primary) 33%, var(--primary) 66%, var(--light-blue) 66%, var(--light-blue) 99%);
+                    background: linear-gradient(120deg, var(--lightprimary) 33%, var(--primary) 33%, var(--primary) 66%, var(--lightprimary) 66%, var(--lightprimary) 99%);
                     background-size: 60px 60px;
                 }
 
@@ -347,8 +316,7 @@
         }
 
         .exhibitions {
-            width: 60%;
-            margin: 80px auto 240px auto;
+            margin: 80px auto 20em auto;
             text-align: justify;
         }
 
@@ -427,14 +395,13 @@
 
     .cv {
         grid-area: cv;
-        background-color: var(--secondary);
+        background-color: var(--primary);
         padding: 60px 0;
         text-align: center;
 
         h2 {
-            color: var(--light);
+            color: var(--white);
             text-align: center;
-            font-size: 55px;
             margin-bottom: 40px;
         }
 
@@ -444,12 +411,13 @@
         }
 
         button {
-            border: 1px solid var(--light);
+            border-color: var(--white);
+            color: var(--white);
         }
 
         button:hover {
-            background-color: var(--light);
-            color: var(--secondary);
+            background-color: var(--white);
+            color: var(--primary);
         }
     }
 }
