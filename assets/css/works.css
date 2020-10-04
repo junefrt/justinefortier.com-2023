@@ -40,13 +40,13 @@
   margin: 0 0 0.4em 0;
 }
 
-@media all and (max-width: 680px) {
+@media all and (max-width: 862px) {
   #cover .works-title {
     font-size: 4rem;
   }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 670px) {
   #cover .works-title {
     font-size: 3rem;
   }
@@ -302,24 +302,6 @@
   }
 }
 
-@media all and (max-width: 1200px) {
-  .wrapper .description .text .media {
-    width: 70%;
-  }
-}
-
-@media all and (max-width: 1000px) {
-  .wrapper .description .text .media {
-    width: 80%;
-  }
-}
-
-@media all and (max-width: 800px) {
-  .wrapper .description .text .media {
-    width: 90%;
-  }
-}
-
 @media all and (max-width: 600px) {
   .wrapper .description .text .media {
     width: 100%;
@@ -400,30 +382,6 @@
 @media all and (max-width: 414px) {
   .wrapper .description .images .artwork {
     margin-bottom: 0px;
-  }
-}
-
-@media all and (max-width: 1200px) {
-  .wrapper .description .images {
-    width: 70%;
-  }
-}
-
-@media all and (max-width: 1000px) {
-  .wrapper .description .images {
-    width: 80%;
-  }
-}
-
-@media all and (max-width: 800px) {
-  .wrapper .description .images {
-    width: 90%;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .wrapper .description .images {
-    width: 100%;
   }
 }
 

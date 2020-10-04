@@ -43,39 +43,21 @@
         margin: 0 0 0.4em 0;
     }
 
-    @media all and (max-width: 900px) {
-        .about-me-title {
-            font-size: 10rem;
-        }
-    }
-
-    @media all and (max-width: 800px) {
-        .about-me-title {
-            font-size: 9rem;
-        }
-    }
-
-    @media all and (max-width: 760px) {
-        .about-me-title {
-            text-align: center;
-        }
-    }
-
-    @media all and (max-width: 680px) {
-        .about-me-title {
-            font-size: 5rem;
-        }
-    }
-
-    @media all and (max-width: 500px) {
+    @media all and (max-width: 862px) {
         .about-me-title {
             font-size: 4rem;
         }
     }
 
-    @media all and (orientation: portrait) {
+    @media all and (max-width: 670px) {
         .about-me-title {
-            text-align: center;
+            font-size: 3rem;
+        }
+    }
+
+    @media all and (max-width: 500px) {
+        .about-me-title {
+            font-size: 2rem;
         }
     }
 
@@ -395,12 +377,12 @@
 
     .cv {
         grid-area: cv;
-        background-color: var(--primary);
+        background-color: var(--black);
         padding: 60px 0;
         text-align: center;
 
         h2 {
-            color: var(--white);
+            color: var(--secondary);
             text-align: center;
             margin-bottom: 40px;
         }
@@ -416,8 +398,16 @@
         }
 
         button:hover {
-            background-color: var(--white);
-            color: var(--primary);
+            background-color: var(--secondary);
+            color: var(--black);
         }
+    }
+}
+
+.contact {
+    background-color: var(--secondblack);
+
+    button:hover {
+        color: var(--secondblack);
     }
 }

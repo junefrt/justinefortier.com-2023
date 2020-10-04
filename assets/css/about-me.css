@@ -39,39 +39,21 @@
   margin: 0 0 0.4em 0;
 }
 
-@media all and (max-width: 900px) {
-  #cover .about-me-title {
-    font-size: 10rem;
-  }
-}
-
-@media all and (max-width: 800px) {
-  #cover .about-me-title {
-    font-size: 9rem;
-  }
-}
-
-@media all and (max-width: 760px) {
-  #cover .about-me-title {
-    text-align: center;
-  }
-}
-
-@media all and (max-width: 680px) {
-  #cover .about-me-title {
-    font-size: 5rem;
-  }
-}
-
-@media all and (max-width: 500px) {
+@media all and (max-width: 862px) {
   #cover .about-me-title {
     font-size: 4rem;
   }
 }
 
-@media all and (orientation: portrait) {
+@media all and (max-width: 670px) {
   #cover .about-me-title {
-    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #cover .about-me-title {
+    font-size: 2rem;
   }
 }
 
@@ -400,13 +382,13 @@
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: cv;
-  background-color: var(--primary);
+  background-color: var(--black);
   padding: 60px 0;
   text-align: center;
 }
 
 .wrapper .cv h2 {
-  color: var(--white);
+  color: var(--secondary);
   text-align: center;
   margin-bottom: 40px;
 }
@@ -422,7 +404,15 @@
 }
 
 .wrapper .cv button:hover {
-  background-color: var(--white);
-  color: var(--primary);
+  background-color: var(--secondary);
+  color: var(--black);
+}
+
+.contact {
+  background-color: var(--secondblack);
+}
+
+.contact button:hover {
+  color: var(--secondblack);
 }
 /*# sourceMappingURL=about-me.css.map */

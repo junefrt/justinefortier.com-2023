@@ -44,13 +44,13 @@
     margin: 0 0 0.4em 0;
   }
 
-  @media all and (max-width: 680px) {
+  @media all and (max-width: 862px) {
     .works-title {
       font-size: 4rem;
     }
   }
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 670px) {
     .works-title {
       font-size: 3rem;
     }
@@ -311,23 +311,23 @@
         }
       }
 
-      @media all and (max-width: 1200px) {
-        .media {
-          width: 70%;
-        }
-      }
+      // @media all and (max-width: 1200px) {
+      //   .media {
+      //     width: 70%;
+      //   }
+      // }
 
-      @media all and (max-width: 1000px) {
-        .media {
-          width: 80%;
-        }
-      }
+      // @media all and (max-width: 1000px) {
+      //   .media {
+      //     width: 80%;
+      //   }
+      // }
 
-      @media all and (max-width: 800px) {
-        .media {
-          width: 90%;
-        }
-      }
+      // @media all and (max-width: 800px) {
+      //   .media {
+      //     width: 90%;
+      //   }
+      // }
 
       @media all and (max-width: 600px) {
         .media {
@@ -413,29 +413,29 @@
       }
     }
 
-    @media all and (max-width: 1200px) {
-      .images {
-        width: 70%;
-      }
-    }
+    // @media all and (max-width: 1200px) {
+    //   .images {
+    //     width: 70%;
+    //   }
+    // }
 
-    @media all and (max-width: 1000px) {
-      .images {
-        width: 80%;
-      }
-    }
+    // @media all and (max-width: 1000px) {
+    //   .images {
+    //     width: 80%;
+    //   }
+    // }
 
-    @media all and (max-width: 800px) {
-      .images {
-        width: 90%;
-      }
-    }
+    // @media all and (max-width: 800px) {
+    //   .images {
+    //     width: 90%;
+    //   }
+    // }
 
-    @media all and (max-width: 600px) {
-      .images {
-        width: 100%;
-      }
-    }
+    // @media all and (max-width: 600px) {
+    //   .images {
+    //     width: 100%;
+    //   }
+    // }
 
     @media all and (max-width: 414px) {
       .images {
