@@ -1236,6 +1236,17 @@ html {
     margin: 0;
     overflow-x: hidden;
 
+    #back-to-top {
+      z-index: 5;
+      position: fixed;
+      bottom: 11.5em;
+      right: 1.5em;
+      width: 2.9em;
+      height: 2.9em;
+      text-align: center;
+      cursor: pointer;
+    }
+
     header {
       z-index: 3;
       position: absolute;
