@@ -198,24 +198,6 @@
   }
 }
 
-@media all and (max-width: 1000px) {
-  .wrapper .description .who-i-am {
-    width: 70%;
-  }
-}
-
-@media all and (max-width: 850px) {
-  .wrapper .description .who-i-am {
-    width: 80%;
-  }
-}
-
-@media all and (max-width: 700px) {
-  .wrapper .description .who-i-am {
-    width: 100%;
-  }
-}
-
 @media all and (max-width: 414px) {
   .wrapper .description .who-i-am {
     margin-top: 0;
@@ -224,7 +206,7 @@
 }
 
 .wrapper .description .skills-box {
-  margin: 80px auto 150px auto;
+  margin: 80px 0 150px 0;
 }
 
 .wrapper .description .skills-box .skill {
@@ -276,24 +258,6 @@
   }
 }
 
-@media all and (max-width: 1000px) {
-  .wrapper .description .skills-box {
-    width: 70%;
-  }
-}
-
-@media all and (max-width: 850px) {
-  .wrapper .description .skills-box {
-    width: 80%;
-  }
-}
-
-@media all and (max-width: 700px) {
-  .wrapper .description .skills-box {
-    width: 100%;
-  }
-}
-
 @media all and (max-width: 414px) {
   .wrapper .description .skills-box {
     margin-top: 0;
@@ -304,25 +268,6 @@
 .wrapper .description .exhibitions {
   margin: 80px auto 20em auto;
   text-align: justify;
-}
-
-@media all and (max-width: 1000px) {
-  .wrapper .description .exhibitions {
-    width: 70%;
-    margin-bottom: 300px;
-  }
-}
-
-@media all and (max-width: 850px) {
-  .wrapper .description .exhibitions {
-    width: 80%;
-  }
-}
-
-@media all and (max-width: 700px) {
-  .wrapper .description .exhibitions {
-    width: 100%;
-  }
 }
 
 @media all and (max-width: 500px) {

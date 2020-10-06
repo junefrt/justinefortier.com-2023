@@ -1922,7 +1922,7 @@ html body button:hover {
 
 .works .row .works-col-right {
   z-index: 1;
-  background-color: var(--lightprimary);
+  background-color: var(--primary);
 }
 
 @media all and (max-width: 970px) {
