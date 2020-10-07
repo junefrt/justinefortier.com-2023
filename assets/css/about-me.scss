@@ -74,7 +74,6 @@
 
     @media all and (max-width: 760px) {
         .about-me-subtitle {
-            // text-align: center;
             margin-bottom: 0;
         }
     }
@@ -99,9 +98,7 @@
     }
 
     @media all and (orientation: portrait) {
-        .about-me-subtitle {
-            // text-align: center;
-        }
+        .about-me-subtitle {}
     }
 
     @media all and (orientation: portrait) {
@@ -116,12 +113,6 @@
         padding: 60px 2em;
     }
 }
-
-// @media all and (max-width: 320px) {
-//     #cover {
-//         padding: 60px 30px;
-//     }
-// }
 
 .illu-justine {
     z-index: 2;
@@ -204,24 +195,6 @@
             }
         }
 
-        // @media all and (max-width: 1000px) {
-        //     .who-i-am {
-        //         width: 70%;
-        //     }
-        // }
-
-        // @media all and (max-width: 850px) {
-        //     .who-i-am {
-        //         width: 80%;
-        //     }
-        // }
-
-        // @media all and (max-width: 700px) {
-        //     .who-i-am {
-        //         width: 100%;
-        //     }
-        // }
-
         @media all and (max-width: 414px) {
             .who-i-am {
                 margin-top: 0;
@@ -278,24 +251,6 @@
             }
         }
 
-        // @media all and (max-width: 1000px) {
-        //     .skills-box {
-        //         width: 70%;
-        //     }
-        // }
-
-        // @media all and (max-width: 850px) {
-        //     .skills-box {
-        //         width: 80%;
-        //     }
-        // }
-
-        // @media all and (max-width: 700px) {
-        //     .skills-box {
-        //         width: 100%;
-        //     }
-        // }
-
         @media all and (max-width: 414px) {
             .skills-box {
                 margin-top: 0;
@@ -307,25 +262,6 @@
             margin: 80px auto 20em auto;
             text-align: justify;
         }
-
-        // @media all and (max-width: 1000px) {
-        //     .exhibitions {
-        //         width: 70%;
-        //         margin-bottom: 300px;
-        //     }
-        // }
-
-        // @media all and (max-width: 850px) {
-        //     .exhibitions {
-        //         width: 80%;
-        //     }
-        // }
-
-        // @media all and (max-width: 700px) {
-        //     .exhibitions {
-        //         width: 100%;
-        //     }
-        // }
 
         @media all and (max-width: 500px) {
             .exhibitions {
