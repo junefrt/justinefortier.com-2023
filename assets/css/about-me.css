@@ -113,13 +113,6 @@
   width: 380px;
 }
 
-@media all and (max-width: 1350px) {
-  .illu-justine {
-    width: 400px;
-    top: 170px;
-  }
-}
-
 @media all and (max-width: 1250px) {
   .illu-justine {
     display: none;

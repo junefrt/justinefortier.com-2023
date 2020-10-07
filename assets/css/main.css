@@ -1517,7 +1517,7 @@ html body button:hover {
 
 @media all and (max-width: 580px) {
   .cover-home span {
-    margin-left: 4em;
+    margin-left: 2em;
   }
 }
 
