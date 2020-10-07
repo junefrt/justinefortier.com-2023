@@ -1256,7 +1256,7 @@ html body header .logo {
 
 @media all and (max-width: 580px) {
   html body header .logo {
-    padding: 34px 50px;
+    padding: 34px 2em;
   }
 }
 

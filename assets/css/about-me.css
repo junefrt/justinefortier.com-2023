@@ -29,7 +29,7 @@
   grid-area: cover;
   background-color: var(--primary);
   margin-top: 100px;
-  padding: 90px 5em 90px 5em;
+  padding: 90px 5em;
 }
 
 #cover .about-me-title {
@@ -101,7 +101,7 @@
 
 @media all and (max-width: 414px) {
   #cover {
-    padding: 60px 50px;
+    padding: 60px 2em;
   }
 }
 
@@ -220,8 +220,8 @@
   border-radius: 50px;
   text-align: right;
   color: var(--white);
-  -webkit-animation: animate .5s linear infinite;
-          animation: animate .5s linear infinite;
+  -webkit-animation: animate 0.5s linear infinite;
+          animation: animate 0.5s linear infinite;
   background: linear-gradient(120deg, var(--lightprimary) 33%, var(--primary) 33%, var(--primary) 66%, var(--lightprimary) 66%, var(--lightprimary) 99%);
   background-size: 60px 60px;
 }
@@ -305,7 +305,7 @@
 
 @media all and (max-width: 414px) {
   .wrapper .description {
-    padding: 5rem 50px;
+    padding: 5rem 2em;
   }
 }
 
