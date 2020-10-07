@@ -74,7 +74,7 @@
 
     @media all and (max-width: 760px) {
         .about-me-subtitle {
-            text-align: center;
+            // text-align: center;
             margin-bottom: 0;
         }
     }
@@ -100,7 +100,7 @@
 
     @media all and (orientation: portrait) {
         .about-me-subtitle {
-            text-align: center;
+            // text-align: center;
         }
     }
 
@@ -117,11 +117,11 @@
     }
 }
 
-@media all and (max-width: 320px) {
-    #cover {
-        padding: 60px 30px;
-    }
-}
+// @media all and (max-width: 320px) {
+//     #cover {
+//         padding: 60px 30px;
+//     }
+// }
 
 .illu-justine {
     z-index: 2;
@@ -254,7 +254,7 @@
                     border-radius: 50px;
                     text-align: right;
                     color: var(--white);
-                    padding-right: 10px;
+                    // padding-right: 10px;
                     animation: animate .5s linear infinite;
                     background: linear-gradient(120deg, var(--lightprimary) 33%, var(--primary) 33%, var(--primary) 66%, var(--lightprimary) 66%, var(--lightprimary) 99%);
                     background-size: 60px 60px;

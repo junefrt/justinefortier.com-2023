@@ -70,7 +70,6 @@
 
 @media all and (max-width: 760px) {
   #cover .about-me-subtitle {
-    text-align: center;
     margin-bottom: 0;
   }
 }
@@ -96,12 +95,6 @@
 
 @media all and (orientation: portrait) {
   #cover .about-me-subtitle {
-    text-align: center;
-  }
-}
-
-@media all and (orientation: portrait) {
-  #cover .about-me-subtitle {
     margin-left: 0;
   }
 }
@@ -109,12 +102,6 @@
 @media all and (max-width: 414px) {
   #cover {
     padding: 60px 50px;
-  }
-}
-
-@media all and (max-width: 320px) {
-  #cover {
-    padding: 60px 30px;
   }
 }
 
@@ -233,7 +220,6 @@
   border-radius: 50px;
   text-align: right;
   color: var(--white);
-  padding-right: 10px;
   -webkit-animation: animate .5s linear infinite;
           animation: animate .5s linear infinite;
   background: linear-gradient(120deg, var(--lightprimary) 33%, var(--primary) 33%, var(--primary) 66%, var(--lightprimary) 66%, var(--lightprimary) 99%);

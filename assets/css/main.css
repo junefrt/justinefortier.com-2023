@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
 @font-face {
-  font-family: 'Socicon';
+  font-family: "Socicon";
   src: url("../fonts/Socicon.eot?87visu");
   src: url("../fonts/Socicon.eot?87visu#iefix") format("embedded-opentype"), url("../fonts/Socicon.woff2?87visu") format("woff2"), url("../fonts/Socicon.ttf?87visu") format("truetype"), url("../fonts/Socicon.woff?87visu") format("woff"), url("../fonts/Socicon.svg?87visu#Socicon") format("svg");
   font-weight: normal;
@@ -1198,7 +1198,7 @@
 :root {
   --primary: #5f46da;
   --lightprimary: #684dee;
-  --secondary: #1AD697;
+  --secondary: #1ad697;
   --white: #e4e4e4;
   --black: #1f1f1f;
   --secondblack: #262626;
@@ -1227,6 +1227,12 @@ html body #back-to-top {
   cursor: pointer;
 }
 
+@media all and (orientation: portrait) {
+  html body #back-to-top {
+    display: none;
+  }
+}
+
 html body header {
   z-index: 3;
   position: absolute;
@@ -1250,7 +1256,7 @@ html body header .logo {
 
 @media all and (max-width: 580px) {
   html body header .logo {
-    padding: 34px 5em;
+    padding: 34px 50px;
   }
 }
 
@@ -1279,6 +1285,7 @@ html body h2 {
 
 @media all and (max-width: 414px) {
   html body h2 {
+    font-size: 1.8rem;
     margin-bottom: -20px;
   }
 }
@@ -1305,7 +1312,7 @@ html body h3 {
 
 @media all and (max-width: 375px) {
   html body h3 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -1344,12 +1351,6 @@ html body .title-number {
 }
 
 @media all and (max-width: 414px) {
-  html body .title-number {
-    font-size: 1.9rem;
-  }
-}
-
-@media all and (max-width: 375px) {
   html body .title-number {
     font-size: 1.5rem;
   }
@@ -1514,6 +1515,13 @@ html body button:hover {
   }
 }
 
+@media all and (max-width: 414px) {
+  .cover-home span {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+  }
+}
+
 @media all and (max-width: 752px) {
   .cover-home {
     padding: 20% 0;
@@ -1530,9 +1538,6 @@ html body button:hover {
   .cover-home .subtitle {
     margin: 0 0 0 12%;
   }
-  .cover-home .subtitle span {
-    font-size: 1.4rem;
-  }
 }
 
 @media all and (max-width: 692px) {
@@ -1546,16 +1551,19 @@ html body button:hover {
     padding: 20% 0;
   }
   .cover-home h1 {
-    padding: 0 12%;
-    font-size: 2rem;
-    line-height: 3rem;
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
   .cover-home h1 em {
-    font-size: 6rem;
-    margin-left: -0.5rem;
+    font-size: 4rem;
+    margin-left: -0.3rem;
   }
   .cover-home .subtitle {
-    margin-left: 18%;
+    margin-left: 0;
+  }
+  .cover-home .subtitle span {
+    font-size: 1.1rem;
   }
 }
 
@@ -2027,6 +2035,9 @@ html body button:hover {
 
 @media all and (max-width: 414px) {
   .about-me .aboutme-col-right {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
     margin-top: 70px;
   }
 }
@@ -2107,12 +2118,6 @@ html body button:hover {
   color: var(--primary);
   text-align: center;
   margin-bottom: 40px;
-}
-
-@media all and (max-width: 320px) {
-  .contact h2 {
-    font-size: 3.5rem;
-  }
 }
 
 .contact p {
