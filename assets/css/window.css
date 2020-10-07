@@ -17,7 +17,7 @@
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: filters;
-  margin: 140px calc(80px - 5px) 0 calc(80px - 5px);
+  margin: 140px calc(12% - 5px) 0 calc(12% - 5px);
 }
 
 .filters #filters {
@@ -70,7 +70,7 @@
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: windows;
-  margin: 1rem calc(80px - 16px);
+  margin: 1rem calc(12% - 16px);
 }
 
 #windows .portfolio {
