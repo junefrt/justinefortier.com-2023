@@ -151,7 +151,7 @@
   }
 }
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 580px) {
   #windows .portfolio {
     margin-right: 0;
     margin-left: 0;
@@ -166,15 +166,9 @@
   top: -30px;
 }
 
-@media all and (max-width: 414px) {
+@media all and (max-width: 580px) {
   #windows {
-    margin: 15px 50px;
-  }
-}
-
-@media all and (max-width: 320px) {
-  #windows {
-    margin: 15px 30px;
+    margin: 15px 2em;
   }
 }
 /*# sourceMappingURL=window.css.map */

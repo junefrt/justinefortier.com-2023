@@ -175,6 +175,10 @@
   cursor: pointer;
 }
 
+.wrapper .description .who-i-am {
+  margin-bottom: 120px;
+}
+
 .wrapper .description .who-i-am p {
   text-align: justify;
 }
@@ -193,7 +197,7 @@
 }
 
 .wrapper .description .skills-box {
-  margin: 80px 0 150px 0;
+  margin: 80px 0 130px 0;
 }
 
 .wrapper .description .skills-box .skill {

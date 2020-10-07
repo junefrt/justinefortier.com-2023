@@ -1276,6 +1276,7 @@ html {
 
     @media all and (max-width: 580px) {
       header {
+
         // text-align: center;
         .logo {
           padding: 34px 2em;
@@ -1449,7 +1450,7 @@ html {
   grid-template-rows: 100vh auto auto auto auto;
 }
 
-@media all and (max-width: 752px) {
+@media all and (max-width: 790px) {
   .content-home {
     grid-template-rows: auto auto auto auto auto;
   }
@@ -1535,23 +1536,27 @@ html {
     margin: -4rem 0 0 20%;
   }
 
-  @media all and (max-width: 970px) {
+  @media all and (max-width: 790px) {
     span {
-      font-size: 2rem;
+      font-size: 1.6rem;
       margin-left: 16%;
     }
   }
 
-  @media all and (max-width: 414px) {
+  @media all and (max-width: 580px) {
     span {
-      margin-left: 2rem;
+      margin-left: 4em;
+    }
+  }
 
-      font-size: 1.4rem;
+  @media all and (max-width: 320px) {
+    span {
+      margin-left: 1.8em;
     }
   }
 }
 
-@media all and (max-width: 752px) {
+@media all and (max-width: 790px) {
   .cover-home {
     padding: 20% 0;
 
@@ -1567,7 +1572,7 @@ html {
     }
 
     .subtitle {
-      margin: 0 0 0 12%;
+      margin: 0 0 0 8%;
     }
   }
 }
@@ -1578,7 +1583,7 @@ html {
   }
 }
 
-@media all and (orientation: portrait) {
+@media all and (max-width: 375px) {
   .cover-home {
     padding: 20% 0;
 
@@ -1595,6 +1600,7 @@ html {
 
     .subtitle {
       margin-left: 0;
+      margin-top: .2em;
 
       span {
         font-size: 1.1rem;
@@ -1684,11 +1690,9 @@ html {
         padding: 6px 8px;
         background-size: 200% auto;
         background-position: 0 0;
-        background-image: linear-gradient(
-          to right,
-          rgba(255, 255, 255, 0) 50%,
-          var(--primary) 50%
-        );
+        background-image: linear-gradient(to right,
+            rgba(255, 255, 255, 0) 50%,
+            var(--primary) 50%);
         transition: all 500ms ease-out;
 
         span {
