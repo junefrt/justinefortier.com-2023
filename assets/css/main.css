@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap");
 @font-face {
   font-family: "Socicon";
   src: url("../fonts/Socicon.eot?87visu");
@@ -1196,13 +1196,13 @@
 }
 
 :root {
-  --primary: #5f46da;
-  --lightprimary: #684dee;
-  --secondary: #1ad697;
-  --white: #e4e4e4;
-  --black: #1f1f1f;
-  --secondblack: #262626;
-  --info: #e9726b;
+  --primary: #BAA3F3;
+  --secondary: #EFE4A6;
+  --white: #F7F7F8;
+  --black: #141415;
+  --secondblack: #1B1B1D;
+  --grey: #AFABBA;
+  --info: #EB4763;
 }
 
 html {
@@ -1210,9 +1210,10 @@ html {
 }
 
 html body {
-  font-family: "Montserrat", serif;
+  font-family: 'Red Hat Display', sans-serif;
   color: var(--white);
   margin: 0;
+  letter-spacing: 0.5px;
   overflow-x: hidden;
 }
 
@@ -1245,7 +1246,7 @@ html body header {
 html body header .logo {
   grid-area: logo;
   height: 32px;
-  padding: 34px 12% 34px 12%;
+  padding: 32px 12% 32px 12%;
 }
 
 @media all and (max-width: 580px) {
@@ -1256,7 +1257,7 @@ html body header .logo {
 
 @media all and (max-width: 580px) {
   html body header .logo {
-    padding: 34px 2em;
+    padding: 32px 2em;
   }
 }
 
@@ -1265,7 +1266,7 @@ html body a {
 }
 
 html body h1 {
-  font-family: "Montserrat";
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 3rem;
 }
 
@@ -1276,11 +1277,9 @@ html body h1 {
 }
 
 html body h2 {
-  font-family: "Montserrat";
+  font-family: 'Red Hat Display', sans-serif;
   margin: 0;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 10px;
+  font-size: 2.5rem;
 }
 
 @media all and (max-width: 414px) {
@@ -1291,7 +1290,7 @@ html body h2 {
 }
 
 html body h3 {
-  font-family: "Montserrat";
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 2rem;
   color: var(--white);
   margin: 0 0 20px 0;
@@ -1306,7 +1305,7 @@ html body h3 {
 
 @media all and (max-width: 414px) {
   html body h3 {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 }
 
@@ -1317,7 +1316,7 @@ html body h3 {
 }
 
 html body h4 {
-  font-family: "Montserrat";
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 35px;
   color: var(--secondary);
   margin: 60px 0 0 0;
@@ -1332,7 +1331,7 @@ html body h4 {
 }
 
 html body .title-number {
-  font-family: "Montserrat";
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 3rem;
   color: var(--primary);
   font-style: normal;
@@ -1357,11 +1356,11 @@ html body .title-number {
 }
 
 html body p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
-  line-height: 2.2rem;
+  line-height: 2rem;
   color: --white;
 }
 
@@ -1387,16 +1386,16 @@ html body #buttons {
 
 html body button {
   width: 270px;
-  height: 50px;
+  height: 56px;
   background: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
   font-size: 0.9rem;
   border: 2px solid var(--white);
   color: var(--white);
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 @media all and (max-width: 414px) {
@@ -1441,9 +1440,10 @@ html body button:hover {
   top: 0;
   left: 0;
   right: 0;
-  background-color: var(--info);
+  background-color: var(--secondary);
   text-align: center;
   padding: 5px;
+  color: var(--black);
 }
 
 @media all and (max-width: 414px) {
@@ -1475,13 +1475,13 @@ html body button:hover {
 }
 
 .cover-home h1 {
-  color: var(--secondary);
+  color: var(--white);
   margin: 0;
   line-height: 4.7rem;
 }
 
 .cover-home h1 em {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-style: normal;
   font-size: 12rem;
   margin-left: -1rem;
@@ -1501,29 +1501,15 @@ html body button:hover {
 }
 
 .cover-home span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  color: var(--white);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  color: var(--grey);
   font-size: 2rem;
-  margin: -4rem 0 0 20%;
 }
 
 @media all and (max-width: 790px) {
   .cover-home span {
     font-size: 1.6rem;
-    margin-left: 16%;
-  }
-}
-
-@media all and (max-width: 580px) {
-  .cover-home span {
-    margin-left: 2em;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .cover-home span {
-    margin-left: 1.8em;
   }
 }
 
@@ -1583,7 +1569,7 @@ html body button:hover {
 }
 
 .scrolldown p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-weight: 600;
   margin: 0;
   line-height: 0;
@@ -1620,11 +1606,7 @@ html body button:hover {
 
 .works .row .works-col-left {
   position: relative;
-  padding: 90px 20px 90px 100px;
-}
-
-.works .row .works-col-left h2 {
-  color: var(--primary);
+  padding: 88px 24px 88px 100px;
 }
 
 .works .row .works-col-left .works-list {
@@ -1639,7 +1621,7 @@ html body button:hover {
 }
 
 .works .row .works-col-left p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.1rem;
   line-height: 2.4rem;
   margin: 0 0 0 -0.4em;
@@ -1653,9 +1635,9 @@ html body button:hover {
 }
 
 .works .row .works-col-left .highlighter {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-weight: 400;
-  color: var(--white);
+  color: var(--grey);
   text-decoration: none;
   padding: 6px 8px;
   background-size: 200% auto;
@@ -1668,7 +1650,7 @@ html body button:hover {
 
 .works .row .works-col-left .highlighter span {
   opacity: 0;
-  font-weight: 200;
+  font-weight: 400;
   text-transform: lowercase;
 }
 
@@ -1681,15 +1663,15 @@ html body button:hover {
 .works .row .works-col-left .highlighter:hover {
   background-position: -100% 0;
   padding: 6px 8px;
-  color: var(--white);
+  color: var(--secondblack);
 }
 
 .works .row .works-col-left .highlighter:hover span {
   opacity: 1;
-  -webkit-transition: opacity 1.2s ease-in-out;
-  -moz-transition: opacity 1.2s ease-in-out;
-  -o-transition: opacity 1.2s ease-in-out;
-  -ms-transition: opacity 1.2s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
 }
 
 .works .row .works-col-left .highlighter:before {
@@ -1936,7 +1918,7 @@ html body button:hover {
 
 .works .row .works-col-right {
   z-index: 1;
-  background-color: var(--primary);
+  background-color: var(--white);
 }
 
 @media all and (max-width: 970px) {
@@ -1968,7 +1950,7 @@ html body button:hover {
   -ms-grid-column: 1;
   grid-area: colleft;
   position: relative;
-  background-color: var(--secondary);
+  background-color: var(--white);
 }
 
 .about-me .aboutme-col-left img {
@@ -2003,12 +1985,8 @@ html body button:hover {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: colright;
-  margin-top: 90px;
+  margin-top: 88px;
   padding: 4.4em 6.4em;
-}
-
-.about-me .aboutme-col-right h2 {
-  color: var(--secondary);
 }
 
 .about-me .aboutme-col-right .aboutme-sentence {
@@ -2016,14 +1994,14 @@ html body button:hover {
 }
 
 .about-me .aboutme-col-right .aboutme-sentence p {
-  color: var(--white);
+  color: var(--grey);
 }
 
 .about-me .aboutme-col-right .aboutme-sentence button {
   width: 240px;
   background: none;
   color: var(--white);
-  margin-top: 20px;
+  margin-top: 24px;
   border-radius: 50px;
   border-color: var(--white);
 }
@@ -2035,7 +2013,7 @@ html body button:hover {
 }
 
 .about-me .aboutme-col-right .aboutme-sentence button:hover {
-  background-color: var(--secondary);
+  background-color: var(--primary);
   color: var(--secondblack);
 }
 
@@ -2044,7 +2022,7 @@ html body button:hover {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-top: 70px;
+    margin-top: 72px;
   }
 }
 
@@ -2121,7 +2099,6 @@ html body button:hover {
 }
 
 .contact h2 {
-  color: var(--primary);
   text-align: center;
   margin-bottom: 40px;
 }
@@ -2136,7 +2113,7 @@ html body button:hover {
 }
 
 .contact button:hover {
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: var(--black);
 }
 
@@ -2145,7 +2122,7 @@ html body button:hover {
   -ms-grid-column: 1;
   grid-area: footer;
   background-color: var(--primary);
-  padding: 20px 80px;
+  padding: 24px 80px;
   display: -ms-grid;
   display: grid;
       grid-template-areas: "left-footer right-footer";
@@ -2181,7 +2158,7 @@ html body button:hover {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: left-footer;
-  border-right: 2px solid var(--white);
+  border-right: 2px solid var(--black);
   position: relative;
 }
 
@@ -2203,6 +2180,7 @@ html body button:hover {
   bottom: 0;
   left: 3.7rem;
   line-height: 20px;
+  color: var(--black);
 }
 
 @media all and (max-width: 580px) {
@@ -2230,6 +2208,10 @@ html body button:hover {
   padding-left: 30px;
 }
 
+.footer .right-footer p {
+  color: var(--black);
+}
+
 .footer .right-footer ul {
   list-style-type: none;
   display: -webkit-box;
@@ -2240,7 +2222,7 @@ html body button:hover {
 
 .footer .right-footer ul a:link,
 .footer .right-footer ul a:visited {
-  color: var(--white);
+  color: var(--black);
 }
 
 .footer .right-footer li {
@@ -2268,7 +2250,7 @@ html body button:hover {
   width: 25px;
   height: 25px;
   font-size: 23px;
-  border: 2px solid var(--white);
+  border: 2px solid var(--black);
   border-radius: 50%;
   font-weight: 300;
   padding-left: 12px;
@@ -2276,17 +2258,13 @@ html body button:hover {
   padding-top: 11px;
 }
 
-.footer .right-footer .socicon-instagram {
-  margin-left: 0;
-}
-
 .footer .right-footer .socicon:hover {
   color: var(--primary);
-  background-color: var(--white);
+  background-color: var(--black);
 }
 
 .footer .right-footer svg:hover {
-  fill: var(--white);
+  fill: var(--black);
 }
 
 @media all and (max-width: 860px) {

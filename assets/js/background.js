@@ -20,9 +20,9 @@ function setup() {
 }
 
 function draw() {
-	background(31, 31, 31);
+	background(20, 20, 21);
 
-	fill(38, 38, 38);
+	fill(27, 27, 29);
 	noStroke();
 
 	height = windowHeight;
