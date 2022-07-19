@@ -722,7 +722,7 @@ html body .secondary-btn:hover {
       grid-template-rows: 560px;
 }
 
-.about-me .aboutme-column-left {
+.about-me .about-me-left-column {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: colleft;
@@ -730,7 +730,7 @@ html body .secondary-btn:hover {
   background-color: var(--secondary);
 }
 
-.about-me .aboutme-column-left img {
+.about-me .about-me-left-column img {
   width: 527px;
   position: absolute;
   margin-right: auto;
@@ -741,24 +741,24 @@ html body .secondary-btn:hover {
 }
 
 @media all and (max-width: 1320px) {
-  .about-me .aboutme-column-left img {
+  .about-me .about-me-left-column img {
     width: 517px;
   }
 }
 
 @media all and (max-width: 1200px) {
-  .about-me .aboutme-column-left img {
+  .about-me .about-me-left-column img {
     width: 504px;
   }
 }
 
 @media all and (max-width: 1080px) {
-  .about-me .aboutme-column-left img {
+  .about-me .about-me-left-column img {
     width: 475px;
   }
 }
 
-.about-me .aboutme-column-right {
+.about-me .about-me-right-column {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: colright;
@@ -766,18 +766,8 @@ html body .secondary-btn:hover {
   margin: auto 104px;
 }
 
-.about-me .aboutme-column-right .aboutme-sentence p {
-  color: var(--text);
-}
-
 @media all and (max-width: 414px) {
-  .about-me .aboutme-column-right .aboutme-sentence button {
-    width: 210px;
-  }
-}
-
-@media all and (max-width: 414px) {
-  .about-me .aboutme-column-right {
+  .about-me .about-me-right-column {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
@@ -793,10 +783,10 @@ html body .secondary-btn:hover {
     -ms-grid-rows: auto auto;
         grid-template-rows: auto auto;
   }
-  .about-me .aboutme-column-left {
+  .about-me .about-me-left-column {
     text-align: center;
   }
-  .about-me .aboutme-column-left img {
+  .about-me .about-me-left-column img {
     position: static;
     width: 60%;
     margin: 0 auto;
@@ -804,31 +794,31 @@ html body .secondary-btn:hover {
 }
 
 @media all and (max-width: 970px) and (max-width: 970px) {
-  .about-me .aboutme-column-left img {
+  .about-me .about-me-left-column img {
     margin-bottom: -5px;
   }
 }
 
 @media all and (max-width: 970px) and (max-width: 600px) {
-  .about-me .aboutme-column-left img {
+  .about-me .about-me-left-column img {
     width: 65%;
   }
 }
 
 @media all and (max-width: 970px) and (max-width: 500px) {
-  .about-me .aboutme-column-left img {
+  .about-me .about-me-left-column img {
     width: 75%;
   }
 }
 
 @media all and (max-width: 970px) {
-  .about-me .aboutme-column-right {
+  .about-me .about-me-right-column {
     text-align: center;
   }
-  .about-me .aboutme-column-right .aboutme-sentence {
+  .about-me .about-me-right-column .aboutme-sentence {
     margin-bottom: 8%;
   }
-  .about-me .aboutme-column-right .aboutme-sentence p {
+  .about-me .about-me-right-column .aboutme-sentence p {
     text-align: center;
   }
 }
@@ -837,7 +827,7 @@ html body .secondary-btn:hover {
   .about-me {
     padding: 0 50px;
   }
-  .about-me .aboutme-column-left img {
+  .about-me .about-me-left-column img {
     margin-top: 20px;
     width: 100%;
   }

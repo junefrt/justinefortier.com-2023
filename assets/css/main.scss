@@ -748,7 +748,7 @@ html {
   grid-template-columns: 50% 50%;
   grid-template-rows: 560px;
 
-  .aboutme-column-left {
+  .about-me-left-column {
     grid-area: colleft;
     position: relative;
     background-color: var(--secondary);
@@ -782,28 +782,14 @@ html {
     }
   }
 
-  .aboutme-column-right {
+  .about-me-right-column {
     grid-area: colright;
     position: relative;
     margin: auto 104px;
-
-    .aboutme-sentence {
-      // margin: 1.6em 0 1.2em 0;
-
-      p {
-        color: var(--text);
-      }
-
-      @media all and (max-width: 414px) {
-        button {
-          width: 210px;
-        }
-      }
-    }
   }
 
   @media all and (max-width: 414px) {
-    .aboutme-column-right {
+    .about-me-right-column {
       padding-left: 0;
       padding-right: 0;
       padding-top: 0;
@@ -820,7 +806,7 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
 
-    .aboutme-column-left {
+    .about-me-left-column {
       text-align: center;
 
       img {
@@ -848,7 +834,7 @@ html {
       }
     }
 
-    .aboutme-column-right {
+    .about-me-right-column {
       text-align: center;
 
       .aboutme-sentence {
@@ -866,7 +852,7 @@ html {
   .about-me {
     padding: 0 50px;
 
-    .aboutme-column-left {
+    .about-me-left-column {
       img {
         margin-top: 20px;
         width: 100%;
