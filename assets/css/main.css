@@ -149,21 +149,14 @@ html body header {
   z-index: 3;
   position: absolute;
   top: 0;
-  height: 100px;
+  height: auto;
   width: 100%;
   background-color: var(--black);
 }
 
 html body header .logo {
-  grid-area: logo;
-  height: 32px;
-  padding: 32px 12% 32px 12%;
-}
-
-@media all and (max-width: 580px) {
-  html body header .logo {
-    padding: 32px 2em 32px 0;
-  }
+  height: auto;
+  margin: 16px 104px;
 }
 
 html body a {
@@ -171,7 +164,9 @@ html body a {
 }
 
 html body h1 {
-  font-size: 3rem;
+  font-size: 3em;
+  line-height: 1.25em;
+  color: var(--black);
 }
 
 @media all and (max-width: 970px) {
@@ -331,7 +326,7 @@ html body .secondary-btn:hover {
   color: var(--grey);
 }
 
-.content-home {
+.home-content {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "hero-header" "projects" "aboutme" "window" "contact" "footer";
@@ -402,8 +397,6 @@ html body .secondary-btn:hover {
 
 .hero-header h1 {
   margin: 0 0 0.5em 0;
-  font-size: 3em;
-  line-height: 1.25em;
   color: var(--white);
 }
 

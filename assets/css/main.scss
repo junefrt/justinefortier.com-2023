@@ -169,31 +169,26 @@ html {
       z-index: 3;
       position: absolute;
       top: 0;
-      height: 100px;
+      height: auto;
       width: 100%;
       background-color: var(--black);
 
       .logo {
-        grid-area: logo;
-        height: 32px;
-        padding: 32px 12% 32px 12%;
-      }
-
-      @media all and (max-width: 580px) {
-        .logo {
-          padding: 32px 2em 32px 0;
-        }
+        height: auto;
+        margin: 16px 104px;
       }
     }
 
-    /// Text settings ///
+    /// TEXT SETTINGS ///
 
     a {
       text-decoration: none;
     }
 
     h1 {
-      font-size: 3rem;
+      font-size: 3em;
+      line-height: 1.25em;
+      color: var(--black);
     }
 
     @media all and (max-width: 970px) {
@@ -310,7 +305,7 @@ html {
       font-weight: 400;
     }
 
-    /// Btns settings ///
+    /// BUTTONS SETTINGS ///
 
     button {
       margin-top: 48px;
@@ -357,7 +352,7 @@ html {
   }
 }
 
-.content-home {
+.home-content {
   display: grid;
   grid-template-areas:
     "hero-header"
@@ -429,8 +424,6 @@ html {
 
   h1 {
     margin: 0 0 0.5em 0;
-    font-size: 3em;
-    line-height: 1.25em;
     color: var(--white);
   }
 
