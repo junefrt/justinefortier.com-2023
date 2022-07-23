@@ -45,13 +45,6 @@
   background-color: var(--white);
   padding: 80px 240px;
 
-  h1,
-  h2,
-  p {
-    margin-left: 160px;
-    margin-right: 160px;
-  }
-
   h1 {
     margin-bottom: 12px;
   }
@@ -62,43 +55,59 @@
   }
 
   p {
+    margin-bottom: .5em;
     color: var(--black);
   }
 
-  span {
-    display: inline-block;
-  }
+  .project-info {
+    margin: 0 160px;
 
-  span+span {
-    margin-left: 16px;
-  }
-
-  .project-type {
-    margin-bottom: 32px;
-    margin-left: 160px;
-    padding: 4px 5px 4px 8px;
-    background-color: var(--black);
-    color: var(--white);
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-  }
-
-  .project-date {
-    color: var(--black);
-    font-weight: 700;
+    span {
+      display: inline-block;
+    }
+  
+    span+span {
+      margin-left: 8px;
+    }
+  
+    .tag {
+      margin-bottom: 32px;
+      padding: 4px 5px 4px 8px;
+      font-weight: 700;
+      font-size: .8em;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  
+    .project-type {
+      background-color: var(--black);
+      color: var(--white);
+  
+    }
+  
+    .project-date {
+      color: var(--black);
+      background-color: var(--grey100);
+    }
   }
 
   .project-desc {
     margin: 48px 0;
-  }
 
-  .images {
-    img {
-      width: 100%;
+    .text {
+      margin: 0 160px;
+    }
+
+    .images {
       margin: 80px 0;
+
+      img {
+        margin-bottom: 20px;
+        width: 100%;
+      }
     }
   }
+
 }
 
 // .project-desc {
@@ -338,15 +347,15 @@
 // }
 
 .links {
-  grid-area: links;
-  background-color: var(--secondblack);
   text-align: center;
-  padding-bottom: 8em;
+  margin-bottom: 4em;
 
+  a+a {
+    margin-left: 32px;
+  }
 
   img {
     height: 4rem;
-    margin: 20px;
     cursor: pointer;
   }
 
@@ -354,11 +363,5 @@
     img {
       height: 2.6rem;
     }
-  }
-}
-
-@media all and (max-width: 580px) {
-  .links {
-    padding-bottom: 4em;
   }
 }

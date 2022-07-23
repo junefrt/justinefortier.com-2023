@@ -111,8 +111,9 @@
   --primary: #BAA3F3;
   --secondary: #EFE4A6;
   --black: #141415;
-  --grey: #1B1B1D;
-  --text: #AFABBA;
+  --grey300: #1B1B1D;
+  --grey200: #AFABBA;
+  --grey100: #E4E3E8;
   --white: #F7F7F8;
 }
 
@@ -123,7 +124,7 @@ html {
 html body {
   font-family: 'Red Hat Display', sans-serif;
   font-style: normal;
-  color: var(--text);
+  color: var(--grey200);
   margin: 0;
   overflow-x: hidden;
 }
@@ -313,7 +314,7 @@ html body .primary-btn {
 html body .primary-btn:hover {
   background-color: var(--secondary);
   border: 2px solid var(--secondary);
-  color: var(--grey);
+  color: var(--grey300);
 }
 
 html body .secondary-btn {
@@ -323,7 +324,7 @@ html body .secondary-btn {
 html body .secondary-btn:hover {
   background-color: var(--primary);
   border: 2px solid var(--primary);
-  color: var(--grey);
+  color: var(--grey300);
 }
 
 .home-content {
@@ -464,7 +465,7 @@ html body .secondary-btn:hover {
   -ms-grid-column: 1;
   grid-area: projects;
   position: relative;
-  background-color: var(--grey);
+  background-color: var(--grey300);
   width: 100%;
 }
 
@@ -501,7 +502,7 @@ html body .secondary-btn:hover {
 }
 
 .projects .row .projects-left-column .highlighter {
-  color: var(--text);
+  color: var(--grey200);
   text-decoration: none;
   padding: 4px 8px;
   background-size: 200% auto;
@@ -526,7 +527,7 @@ html body .secondary-btn:hover {
 .projects .row .projects-left-column .highlighter:hover {
   background-position: -100% 0;
   padding: 4px 8px;
-  color: var(--grey);
+  color: var(--grey300);
 }
 
 .projects .row .projects-left-column .highlighter:hover span {
@@ -705,7 +706,7 @@ html body .secondary-btn:hover {
   -ms-grid-column: 1;
   grid-area: aboutme;
   position: relative;
-  background-color: var(--grey);
+  background-color: var(--grey300);
   display: -ms-grid;
   display: grid;
       grid-template-areas: "colleft colright";
