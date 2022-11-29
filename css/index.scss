@@ -1,3 +1,23 @@
+#bg {
+    z-index: 0;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    // background-color: yellow;
+
+    p {
+        margin: 0;
+        font-family: 'Red Hat Display', sans-serif;
+        text-align: center;
+        font-weight: 900;
+        font-size: 20vw;
+        text-transform: uppercase;
+        color: var(--white);
+    }
+}
+
 section {
     z-index: 1;
     position: absolute;
@@ -6,21 +26,4 @@ section {
     transform: translate(-50%, -50%);
     width: 360px;
     text-align: center;
-}
-
-#bg {
-    z-index: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    p {
-        margin: 0
-        text-align: center;
-        font-weight: 900;
-        font-size: 20vw;
-        text-transform: uppercase;
-        color: var(--white);
-    }
 }

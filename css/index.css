@@ -1,3 +1,21 @@
+#bg {
+  z-index: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#bg p {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20vw;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
 section {
   z-index: 1;
   position: absolute;
@@ -6,20 +24,4 @@ section {
   transform: translate(-50%, -50%);
   width: 360px;
   text-align: center;
-}
-
-#bg {
-  height: 100vh;
-  z-index: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#bg p {
-  text-align: center;
-  color: var(--white);
-  font-weight: 900;
-  font-size: 20vw;
-  text-transform: uppercase;
-  margin: 0;
 }/*# sourceMappingURL=index.css.map */
