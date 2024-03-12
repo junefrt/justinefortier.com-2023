@@ -1,6 +1,6 @@
 #bg {
     z-index: 0;
-    position:relative;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,4 +26,10 @@ section {
     transform: translate(-50%, -50%);
     width: 360px;
     text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
