@@ -24,4 +24,11 @@ section {
   transform: translate(-50%, -50%);
   width: 360px;
   text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
 }/*# sourceMappingURL=index.css.map */
